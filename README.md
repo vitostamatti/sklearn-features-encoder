@@ -24,10 +24,18 @@ To get started, clone this repo and check that you have all requirements install
 
 ```
 git clone https://github.com/vitostamatti/sklearn-features-encoder.git
+pip install .
 ``` 
 
 ## Usage <a name = "usage"></a>
 
+```
+from features_encoder import FeaturesEncoder
+
+encoder = FeaturesEncoder()
+encoder.fit_transform(X,y)
+
+```
 
 In the [notebooks](/notebooks/) directory you can find examples.
 
